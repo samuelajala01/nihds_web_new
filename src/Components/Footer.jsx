@@ -1,11 +1,13 @@
 import Link from 'next/link';
+import Image from "next/image";
+import newbg from "../../public/assets/hero.png"
 
 const Footer = () => {
     return ( <><footer className="text-black">
-      <div>
-        <div>
-            <div>LOGO</div>
-            <div>
+      <div className=' p-[5vw]'>
+        <div className="block md:flex justify-around mb-24">
+            <div className='md:flex-1 mb-4'><Image src={newbg} className='w-80 mx-auto'/></div>
+            <div className='block md:flex md:flex-1 md:w-80 md:justify-around bg-blue-600 text-center md:text-balance'>
                 <ul>
                     <li><Link href="/">About</Link></li>
                     <li><Link href="/">Technology</Link></li>
@@ -32,8 +34,8 @@ const Footer = () => {
                 
             </div>
         </div>
-        <div></div>
       </div>
+        <div className='border-t-2 mt-30'>Ade is a boy</div>
     </footer></> );
 }
  
