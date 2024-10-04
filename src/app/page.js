@@ -38,14 +38,14 @@ export default function Home() {
     <div className="mb-8 lg:mx-[9vw]"><h3 className="text-black text-lg md:text-2xl mb-2">By coming together, we unlock the strength to overcome challenges and create new opportunities. It's through collaboration and shared effort that we achieve more than we ever could alone. This is the real power of community</h3><p className="text-gray-400">Michael Ojo, Public Relations Officer</p></div>
     <div className="bg-blue-50 p-16">
       <h3 className="text-black text-4xl font-semibold mb-8">Connect with innovative minds</h3>
-      <button className="bg-black p-4">Join Our Community</button>
+      <button className="bg-black py-4 px-6 rounded-xl">Join Our Community</button>
     </div>
     </section>
     <section className="text-center text-black">
       <h2 className="text-4xl mb-8 font-semibold">Subscribe to our newsletter</h2>
       <p className="text-gray-500 mb-4">By signing up, you agree to receive awesome emails and updates.</p>
-      <div><input className="bg-gray-200 p-2" type="text" placeholder="your email address"
-      /><button className="bg-black text-white p-2">Subscribe</button></div>
+      <div className="bg-gray-200 w-fit mx-auto rounded-full"><input className="bg-gray-200 px-6 py-2 rounded-full" type="text" placeholder="your email address"
+      /><button className="bg-black text-white p-2 rounded-full">Subscribe</button></div>
     </section>
       </>
   );
