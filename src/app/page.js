@@ -36,7 +36,7 @@ export default function Home() {
     <p>Join our community and connect with like-minded individuals dedicated to advancing health and wellness through innovation. Stay informed, share insights, and be part of the future of health technology.</p></section>
     <section className="p-[4vw] text-center">
     <div className="mb-8 lg:mx-[9vw]"><h3 className="text-black text-lg md:text-2xl mb-2">By coming together, we unlock the strength to overcome challenges and create new opportunities. It's through collaboration and shared effort that we achieve more than we ever could alone. This is the real power of community</h3><p className="text-gray-400">Michael Ojo, Public Relations Officer</p></div>
-    <div className="bg-blue-50 p-16">
+    <div className="bg-[#F8F8FF] p-16">
       <h3 className="text-black text-4xl font-semibold mb-8">Connect with innovative minds</h3>
       <button className="bg-black py-4 px-6 rounded-xl">Join Our Community</button>
     </div>

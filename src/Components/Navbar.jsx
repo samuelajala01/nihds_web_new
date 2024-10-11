@@ -1,14 +1,20 @@
+import Image from "next/image";
+
 const Navbar = () => {
     return ( <>
-    <div className="flex m-auto justify-around p-8 bg-green-300 w-fit">
-        <div>LOGO</div> 
-        <ul className="flex justify-between text-blue-700">
+    <div className="flex m-auto justify-around p-8 bg-green-300">
+        <div><Image 
+        
+        alt="Logo"
+        className="" width={60} height={40}/>
+        </div> 
+        <ul className="flex gap-[4vw] text-blue-700">
        <li>Home</li>
        <li>About</li>
        <li> Events</li>
        <li>Reources</li>
         </ul>
-        <button>Join Now</button>
+        <button className="bg-[#03045E] rounded-md py-2 px-6">Join Now</button>
         </div></> );
 }
  
