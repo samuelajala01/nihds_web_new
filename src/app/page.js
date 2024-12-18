@@ -1,4 +1,6 @@
 import SliderDiv from "@/Components/SliderDiv";
+import { FaArrowRight } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 
 export default function Home() {
@@ -36,15 +38,16 @@ export default function Home() {
     <p>Join our community and connect with like-minded individuals dedicated to advancing health and wellness through innovation. Stay informed, share insights, and be part of the future of health technology.</p></section>
     <section className="p-[4vw] text-center">
     <div className="mb-8 lg:mx-[9vw]"><h3 className="text-black text-lg md:text-2xl mb-2">By coming together, we unlock the strength to overcome challenges and create new opportunities. It's through collaboration and shared effort that we achieve more than we ever could alone. This is the real power of community</h3><p className="text-gray-400">Michael Ojo, Public Relations Officer</p></div>
-    <div className="bg-[#F8F8FF] p-16">
-      <h3 className="text-black text-4xl font-semibold mb-8">Connect with innovative minds</h3>
-      <button className="bg-black py-4 px-6 rounded-xl">Join Our Community</button>
+    <div className="bg-[#F8F8FF] p-16 rounded-[30px]">
+      <h3 className="text-black text-2xl md:text-4xl mx-[12vw] md:mx-[16vw] lg:mx-[25vw] font-semibold mb-8">Connect with innovative minds</h3>
+      <button className="bg-black py-4 px-6 rounded-xl inline-flex">Join Our Community<span className="relative top-[0.4rem] left-[0.4rem]"><FaArrowRight /></span></button>
     </div>
     </section>
     <section className="text-center text-black">
       <h2 className="text-4xl mb-8 font-semibold">Subscribe to our newsletter</h2>
       <p className="text-gray-500 mb-4">By signing up, you agree to receive awesome emails and updates.</p>
-      <div className="bg-gray-200 w-fit mx-auto rounded-full"><input className="bg-gray-200 px-6 py-2 rounded-full" type="text" placeholder="your email address"
+      <div className="bg-gray-200 w-fit mx-auto rounded-full">
+        <input className="bg-gray-200 px-6 py-2 rounded-full" type="text" placeholder="your email address"
       /><button className="bg-black text-white p-2 rounded-full">Subscribe</button></div>
     </section>
       </>
