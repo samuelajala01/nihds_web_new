@@ -20,12 +20,19 @@ export default function Home() {
 
        <div className="text-center mx-[15vw] md:mx-[25vw] bg-red-400 mb-4"> <quote className="text-black text-lg md:text-2xl">"When we come together, we can overcome any challenge and create endless opportunities. That's the power of community."</quote>
        <p>Kemisola Bolarinwa, President of NIHDS</p></div>
- <SliderDiv title="Our Focus" />
- <SliderDiv title="AI Engineers" />
- <SliderDiv title="Robotics" />
+
+ <SliderDiv title="Our Focus" img_1_path="image-1.png" desc_1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta." img_2_path="image-1.png" desc_2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_3_path="image-1.png" desc_3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_4_path="image-1.png" desc_4="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_5_path="image-1.png" desc_5="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta"   />
+
+
+ <SliderDiv title="AI Engineer" img_1_path="image-1.png" desc_1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta." img_2_path="image-1.png" desc_2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_3_path="image-1.png" desc_3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_4_path="image-1.png" desc_4="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_5_path="image-1.png" desc_5="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta"   />
+
+ 
+ <SliderDiv title="Robotics" img_1_path="image-1.png" desc_1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta." img_2_path="image-1.png" desc_2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_3_path="image-1.png" desc_3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_4_path="image-1.png" desc_4="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta" img_5_path="image-1.png" desc_5="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis, debitis qui est ab labore enim laudantium architecto ducimus expedita nisi delectus hic quas. Et a maxime explicabo fugit soluta"   />
+
  <section>
   <h3>Explore Endless Possibilities</h3>
   <div>div for image</div>
+  
  </section>
 <section>
   <h2>Innovations</h2>
