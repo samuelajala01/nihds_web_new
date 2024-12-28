@@ -26,16 +26,16 @@ body {
   }
 } */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: 1px solid red;
 }
 
-body{
-  color: white;
+body {
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 /* .hero_section{
