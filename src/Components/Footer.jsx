@@ -14,7 +14,10 @@ const Footer = () => {
           {/* major footer divisor */}
           <div className="block md:flex justify-around mb-24">
             <div className="md:flex-1 mb-4">
-              <Image src={logo} className="w-60 md:w-80 m-auto relative top-[30%]" />
+              <Image
+                src={logo}
+                className="w-60 md:w-80 m-auto relative top-[30%]"
+              />
             </div>
             <div className="block md:flex md:flex-1 md:w-80 md:justify-around text-center md:text-balance">
               <ul className="">
