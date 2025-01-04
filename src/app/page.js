@@ -1,6 +1,5 @@
 import SliderDiv from "@/Components/SliderDiv";
 import { FaArrowRight } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,9 +18,8 @@ export default function Home() {
           Get Started
         </button>
       </section>
-      <div className="flex justify-between">
-        <div className="bg-gray-400 border rounded-sm w-10 h-90">a</div>
-      </div>
+
+      {/* ------------------- Quotes --------------------- */}
 
       <div className="text-center mx-[15vw] md:mx-[25vw] mb-4">
         {" "}
@@ -31,6 +29,8 @@ export default function Home() {
         </quote>
         <p>Kemisola Bolarinwa, President of NIHDS</p>
       </div>
+
+      {/* ------------------- Sliders --------------------- */}
 
       <section className="w-fit p-8">
         <div className="">
@@ -54,7 +54,6 @@ export default function Home() {
               className="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[225px] md:h-[300px]"
             />
           </div>
-
           <div className="border-4 border-blue-600 p-2 flex-shrink-0">
             <Image
               src="/assets/image-2.png"
@@ -112,6 +111,8 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ------------------- Explore Endless possibilities --------------------- */}
+
       <section>
         <h3 className="text-center font-bold md:text-4xl mb-8">
           Explore Endless Possibilities
@@ -126,6 +127,9 @@ export default function Home() {
           />{" "}
         </div>
       </section>
+
+      {/* ------------------- Innovations --------------------- */}
+
       <section className="m-[6vw]">
         <h2 className="font-bold text-2xl md:text-4xl">Innovations</h2>
         <p className="my-4 sm:max-w-[50vw]">
@@ -149,6 +153,7 @@ export default function Home() {
           />
         </div>
       </section>
+
       <section className="bg-gray-600 p-[6vw] text-white">
         <p className="">NIHDS Community</p>
         <h2 className="my-4 font-semibold text-5xl md:max-w-[40vw]">
@@ -159,8 +164,27 @@ export default function Home() {
           to advancing health and wellness through innovation. Stay informed,
           share insights, and be part of the future of health technology.
         </p>
-        <div className="flex my-2">
-          <div className="border-4 rounded-lg border-blue-600 p-4 flex-shrink-0 bg-white text-black">
+        <div className="flex my-2 justify-between">
+          <div className="rounded-lg p-4 flex-shrink-0 text-white">
+            <Image
+              src="/assets/image-2.png"
+              alt="description"
+              width={100}
+              height={100}
+              className="w-[200px] h-[200px] sm:w-[300px] sm:h-[150px] md:max-w-[220px]"
+            />
+            <div className="text-center">
+              <p className="font-semibold mt-4">Free Community</p>
+              <p className="text-xs mx-auto w-[200px] text-center my-2">
+                Connect with like minds to get tips on our AI trends
+              </p>
+
+              <button className="border-2 rounded-md border-white mt-2">
+                <p className="p-2">Join our free community</p>
+              </button>
+            </div>
+          </div>
+          <div className="rounded-lg p-4 flex-shrink-0 bg-white text-black">
             <Image
               src="/assets/image-2.png"
               alt="description"
@@ -174,7 +198,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-4 border-blue-600 p-2 flex-shrink-0 bg-white text-black">
+          <div className="rounded-lg p-2 flex-shrink-0 bg-white text-black">
             <Image
               src="/assets/image-2.png"
               alt="description"
@@ -187,7 +211,7 @@ export default function Home() {
               <p className="text-xs">Connect with the like-minded</p>
             </div>
           </div>
-          <div className="border-4 border-blue-600 p-2 flex-shrink-0 bg-white text-black">
+          <div className="rounded-lg p-2 flex-shrink-0 bg-white text-black">
             <Image
               src="/assets/IOT CARD.png"
               alt="description"
@@ -196,12 +220,13 @@ export default function Home() {
               className="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[220px]"
             />
             <div className="text-center">
-              <p className="font-semibold mt-4 mb-2">Blogs</p>
+              <p className="font-medium mt-4 mb-2">Blogs</p>
               <p className="text-xs">Get insights on advanced tools</p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="p-[4vw] text-center">
         <div className="mb-8 lg:mx-[9vw]">
           <h3 className="text-black text-lg md:text-2xl mb-2">
@@ -224,6 +249,8 @@ export default function Home() {
           </button>
         </div>
       </section>
+
+      {/* ------------------- Newsletter --------------------- */}
       <section className="text-center text-black">
         <h2 className="text-4xl mb-8 font-semibold">
           Subscribe to our newsletter
@@ -231,13 +258,13 @@ export default function Home() {
         <p className="text-gray-500 mb-4">
           By signing up, you agree to receive awesome emails and updates.
         </p>
-        <div className="bg-gray-200 w-fit mx-auto rounded-full">
+        <div className="bg-gray-200 flex justify-between md:max-w-[30vw] mx-auto rounded-full">
           <input
-            className="bg-gray-200 px-6 py-2 rounded-full"
+            className="bg-gray-200 px-6 py-2 rounded-full w-full"
             type="text"
             placeholder="your email address"
           />
-          <button className="bg-black text-white p-2 rounded-full">
+          <button className="bg-black text-white py-2 px-4 rounded-full">
             Subscribe
           </button>
         </div>

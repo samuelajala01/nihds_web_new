@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className="block md:flex md:flex-1 md:w-80 md:justify-around text-center md:text-balance">
               <ul className="">
-                <li className="py-[0.7rem ] font-semibold">
+                <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">About</Link>
                 </li>
                 <li className="py-[0.7rem]">
@@ -35,7 +35,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <li className="py-[0.7rem] font-semibold">
+                <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">Community</Link>
                 </li>
                 <li className="py-[0.7rem]">
@@ -58,7 +58,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <li className="py-[0.7rem] font-semibold">
+                <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">Membership</Link>
                 </li>
                 <li className="py-[0.7rem]">
@@ -74,7 +74,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t-2 mt-30 py-4 px-[5vw]">
+        <div className="border-t-2 mt-30 py-6 px-[5vw]">
           <div className="flex mb-4">
             <p className="text-2xl px-1">
               <SlSocialInstagram />
