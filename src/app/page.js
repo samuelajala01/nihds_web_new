@@ -64,7 +64,7 @@ export default function Home() {
         <div className="flex my-2 justify-between">
           <div className="rounded-lg p-4 flex-shrink-0 text-white">
             <Image
-              src="/assets/image-2.png"
+              src="/assets/free-com.png"
               alt="description"
               width={100}
               height={100}
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           <div className="rounded-lg p-4 flex-shrink-0 bg-white text-black">
             <Image
-              src="/assets/image-2.png"
+              src="/assets/online-com.png"
               alt="description"
               width={100}
               height={100}
@@ -97,7 +97,7 @@ export default function Home() {
 
           <div className="rounded-lg p-2 flex-shrink-0 bg-white text-black">
             <Image
-              src="/assets/image-2.png"
+              src="/assets/ai-trends.png"
               alt="description"
               width={100}
               height={100}
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
           <div className="rounded-lg p-2 flex-shrink-0 bg-white text-black">
             <Image
-              src="/assets/IOT CARD.png"
+              src="/assets/blogs.png"
               alt="description"
               width={100}
               height={100}
