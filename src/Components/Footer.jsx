@@ -20,7 +20,7 @@ const Footer = () => {
               />
             </div>
             <div className="block md:flex md:flex-1 md:w-80 md:justify-around text-center md:text-balance">
-              <ul className="">
+              <ul className="mt-12 mb-6 md:mb-0">
                 <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">About</Link>
                 </li>
@@ -37,7 +37,7 @@ const Footer = () => {
                   <Link href="/">Research</Link>
                 </li>
               </ul>
-              <ul>
+              <ul className="mb-6 md:mb-0">
                 <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">Community</Link>
                 </li>
@@ -60,7 +60,7 @@ const Footer = () => {
                   <Link href="/">Brainstorms</Link>
                 </li>
               </ul>
-              <ul>
+              <ul className="mb-6 md:mb-0">
                 <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">Membership</Link>
                 </li>
@@ -77,8 +77,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t-2 mt-30 py-6 px-[5vw]">
-          <div className="flex mb-4">
+        <div className="border-t-2 mt-30 mx-auto  py-6 px-[5vw]">
+          <div className="flex mb-4 justify-center md:justify-normal">
             <p className="text-2xl px-1">
               <SlSocialInstagram />
             </p>
@@ -92,7 +92,9 @@ const Footer = () => {
               <FaSquareXTwitter />
             </p>
           </div>
-          <p>2024 NIHDS, all rights reserved.</p>
+          <p className="flex justify-center md:justify-normal">
+            2024 NIHDS, all rights reserved.
+          </p>
         </div>
       </footer>
     </>

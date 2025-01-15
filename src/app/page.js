@@ -11,19 +11,19 @@ import SubscribeBlock from "@/Components/SubscribeBlock";
 export default function Home() {
   return (
     <>
-      <HeroSection/>
+      <HeroSection />
 
       {/* ------------------- Quotes --------------------- */}
 
-     <PresQuote/>
+      <PresQuote />
 
       {/* ------------------- Sliders --------------------- */}
 
-      <SlidersSection/>
+      <SlidersSection />
 
       {/* ------------------- Explore Endless possibilities --------------------- */}
 
-      <MapSection/>
+      <MapSection />
 
       {/* ------------------- Innovations --------------------- */}
 
@@ -124,10 +124,9 @@ export default function Home() {
         </div>
       </section>
 
-      <ProQuote/>
+      <ProQuote />
 
       <section className="p-[4vw] text-center">
-
         <div className="bg-[#F8F8FF] p-16 rounded-[30px]">
           <h3 className="text-black text-2xl md:text-4xl mx-[12vw] md:mx-[16vw] lg:mx-[25vw] font-semibold mb-8">
             Connect with innovative minds
@@ -142,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* ------------------- Newsletter --------------------- */}
-      <SubscribeBlock/>
+      <SubscribeBlock />
     </>
   );
 }
