@@ -20,7 +20,7 @@ const Footer = () => {
               />
             </div>
             <div className="block md:flex md:flex-1 md:w-80 md:justify-around text-center md:text-balance">
-              <ul className="mt-12 mb-6 md:mb-0">
+              <ul className="mt-12 md:mt-0 mb-6 md:mb-0">
                 <li className="pb-[0.7rem] font-semibold">
                   <Link href="/">About</Link>
                 </li>

@@ -40,7 +40,7 @@ export default function Home() {
             <FaArrowRight />
           </span>
         </button>
-        <div className="border-4 border-blue-600 my-4">
+        <div className="my-4">
           <Image
             src="/assets/image-2.png"
             alt="description"
