@@ -93,7 +93,7 @@ const Footer = () => {
             </p>
           </div>
           <p className="flex justify-center md:justify-normal">
-            2024 NIHDS, all rights reserved.
+          {new Date().getFullYear()} NIHDS, all rights reserved.
           </p>
         </div>
       </footer>
