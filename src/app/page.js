@@ -4,9 +4,10 @@ import Image from "next/image";
 import HeroSection from "@/Components/HeroSection";
 import PresQuote from "@/Components/PresQuote";
 import SlidersSection from "@/Components/SlidersSection";
+import SubscribeBlock from "@/Components/SubscribeBlock";
 import MapSection from "@/Components/MapSection";
 import ProQuote from "@/Components/ProQuote";
-import SubscribeBlock from "@/Components/SubscribeBlock";
+import InnovSection from "@/Components/InnovSection";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
 
       {/* ------------------- Innovations --------------------- */}
 
-      <section className="m-[6vw]">
+      {/* <section className="m-[6vw]">
         <h2 className="font-bold text-2xl md:text-4xl">Innovations</h2>
         <p className="my-4 sm:max-w-[50vw]">
           Our community brings together hardware developers, startup founders,
@@ -49,7 +50,8 @@ export default function Home() {
             className="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[225px] md:h-[300px]"
           />
         </div>
-      </section>
+      </section> */}
+      <InnovSection/>
 
       <section className="bg-gray-600 p-[6vw] text-white">
         <p className="">NIHDS Community</p>
